@@ -1,0 +1,12 @@
+
+.c-container{
+
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container>video{
+    width: 80%;
+}
+.c-container>img{
+    width: 9rem;
+}

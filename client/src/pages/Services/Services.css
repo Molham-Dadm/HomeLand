@@ -1,0 +1,114 @@
+
+.green-pink-gradient-border {
+    background: 
+      linear-gradient(to right, green, pink), /* Gradient background  */
+      linear-gradient(to right, green, pink); /* Border background */
+    background-origin: border-box; /* Gradient starts at border */
+    background-clip: content-box, border-box; /* Separate layers */
+    padding: 5px; /* Simulate border width */
+  }
+
+ 
+
+  
+  
+  .xs-w-250px {
+    width: 250px;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  /* Center items horizontally */
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Flex container */
+  .flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-1px {
+    padding: 1px;
+  }
+  
+  /* Rounded corners */
+  .rounded-20px {
+    border-radius: 20px;
+  }
+  
+  /* Box shadow */
+  .shadow-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  }
+
+  .w-16 {
+    width: 5rem; /* Equivalent to 16px */
+  }
+  
+  .h-16 {
+    height: 5rem; /* Equivalent to 16px */
+  }
+  
+  /* Preserve aspect ratio */
+  .object-contain {
+    object-fit: contain;
+  }
+
+  .text-white {
+    color: #ffffff; /* Adjust as needed */
+  }
+  
+  /* Font size */
+  .text-20px {
+    font-size: 20px;
+  }
+  
+  /* Font weight */
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  /* Text alignment */
+  .text-center {
+    text-align: center;
+  }
+
+  .mt-4 {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+  
+  /* Text color */
+  .text-secondary {
+    color: var(--gray); /* Adjust as needed */
+  }
+  
+  /* Font size */
+  .text-17px {
+    font-size: 17px;
+  }
+  
+  /* Maximum width */
+  .max-w-3xl {
+    max-width: 48rem; /* Adjust as needed */
+  }
+  
+  /* Line height */
+  .leading-30px {
+    line-height: 30px; /* Adjust as needed */
+  }
+
+  .container1 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+
+

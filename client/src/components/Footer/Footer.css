@@ -1,0 +1,58 @@
+.f-container{
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: .5px solid rgba(0, 0, 0, 0.25);
+}
+.f-left{
+    gap: 1rem;
+}
+
+.f-left .logo:hover{
+    
+    border-bottom: 2px solid gray;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-menu>span:hover{
+    cursor: progress;
+    /* border-bottom: 2px solid gray; */
+    scale: 1.14;
+    color: gray;
+}
+
+
+.socials{
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+  
+}
+
+.social:hover{
+    cursor: pointer;
+    scale: 1.1;
+    color: gray;
+}
+
+
+@media (max-width: 768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        justify-content: center;
+    }
+    .socials{
+        justify-content: center;
+    }
+}
